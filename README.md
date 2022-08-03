@@ -1,4 +1,4 @@
-# tosn-dsmelora22
+# TOSN DSME-LoRa 2022
 
 This repository contains the measurement applications, datasets and DSME-LoRa
 code of our contribution <i>DSME-LoRa: Seamless Long Range Communication Between
