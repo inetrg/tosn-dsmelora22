@@ -18,4 +18,5 @@ Please refer to the [README](https://github.com/inetrg/dsme_lora/blob/e94c7e55c4
 - [RIOT](https://github.com/inetrg/RIOT/tree/a0d83380996283f60b9a6a18bf9f5c764f50b8ab): Contains the fork of the RIOT repository with the DSME-LoRa code
 and DSME applications. Check the [openDSME port](https://github.com/inetrg/RIOT/tree/a0d83380996283f60b9a6a18bf9f5c764f50b8ab/pkg/opendsme), the [DSME-LoRa compatible SX127x driver](https://github.com/inetrg/RIOT/blob/a0d83380996283f60b9a6a18bf9f5c764f50b8ab/drivers/sx127x/sx127x_rf_ops.c) as well as
 the openDSME applications ([opendsme](https://github.com/inetrg/RIOT/tree/a0d83380996283f60b9a6a18bf9f5c764f50b8ab/examples/opendsme), [opendsme_actuator](https://github.com/inetrg/RIOT/tree/a0d83380996283f60b9a6a18bf9f5c764f50b8ab/examples/opendsme_actuator), [opendsme_sensor](https://github.com/inetrg/RIOT/tree/a0d83380996283f60b9a6a18bf9f5c764f50b8ab/examples/opendsme_sensor))
-
+- [experiments](experiments): Contains scripts to reproduce experiments on IoT-LAB.
+Please refer to the [README.md](experiments/README.md)
