@@ -2,7 +2,7 @@
 
 All available data sources are included in [datasets.tar.gz](https://cloud.haw-hamburg.de/index.php/s/VO5lcQJUN7uNj8j) (pass:`tosn_dsme_lora_22`).
 
-[data_transmission.csv](data_transmission.csv) contains the data used to generate
+`data_transmission.csv` contains the data used to generate
 Sections 5.2,5.3,5.4.
 
 The columns are described in the following list:
@@ -46,21 +46,21 @@ The columns are described in the following list:
 - `toa_node_roles`: List of roles for each node
 - `toa_node_dt`: List of the times between last and first transmission, for each node.
 
-[prr_coexistence.csv](prr_coexistence.csv) contains data used to generate the figure
+`prr_coexistence.csv` contains data used to generate the figure
 in Section 5.5.
 
 The columns are described in the following list:
 - `prr_baseline`: PRR of the baseline case (DSME-LoRa nodes without cross-traffic)
 - `prr_cross`: PRR of the LoRaWAN cross-traffic case
 
-[interference_prr_moving_avg.csv](interference_prr_moving_avg.csv) contains data used to generate the
+`interference_prr_moving_avg.csv` contains data used to generate the
 moving average PRR under interference from jammers in Section 5.6
 
 The columns are described in the following list:
 - `t_r<x>`: Time axis of the replica `x`
 - `prr_r<x>`: Prr axis of the replica `x`
 
-[energy.csv](energy.csv) contains raw current measurements used for Section 5.7
+`energy.csv` contains raw current measurements used for Section 5.7
 
 The columns are described in the following list:
 - `n`: The sample index
@@ -68,14 +68,14 @@ The columns are described in the following list:
 - `cfp`: Current samples for CFP transmission
 - `cfp_rx`: Current samples for CFP transmission (RX node)
 
-[simulation.csv](simulation.csv) contains all simulation data used for the
+`simulation.csv` contains all simulation data used for the
 experiments (Sections 6,7). This file is the output of Omnet++ Scavetool for
 all simulation results. See (Result Analysis with Python)[https://docs.omnetpp.org/tutorials/pandas/] from the official Omnet++ documentation for performing data analysis
 on this data.
 
 ## Generate data sources from raw logs
-[data_transmission.csv](data_transmission.csv), [prr_coexistence.csv](prr_coexistence.csv)
-and [interference_prr_moving_avg.csv](interference_prr_moving_avg.csv) are generated
+`data_transmission.csv`, `prr_coexistence.csv`
+and `interference_prr_moving_avg.csv` are generated
 from raw log files.
 To generate these files from the original raw data, extract
 [raw_logs.tar.gz](https://cloud.haw-hamburg.de/index.php/s/O0cJ1YcVuWqSG3a)
