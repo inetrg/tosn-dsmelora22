@@ -10,7 +10,7 @@ git clone --recursive https://github.com/inetrg/tosn-dsmelora22.git
 ```
 
 ## Repository structure
-This repository contains three folders:
+This repository contains the following folders:
 - [datasets](datasets): Contains all datasets and evaluation tools. Please refer
 to the [README](datasets/README.md)
 - [simulation](https://github.com/inetrg/dsme_lora/tree/e94c7e55c4d69e629d2e5d7cecb1ce7a6c89a230): Contains the code of the Omnet++ simulation environment.
