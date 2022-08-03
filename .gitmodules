@@ -1,0 +1,7 @@
+[submodule "simulation"]
+	path = simulation
+	url = https://github.com/inetrg/dsme_lora.git
+[submodule "RIOT"]
+	path = RIOT
+	url = https://github.com/inetrg/RIOT.git
+	branch = exp/dsme_lora
